@@ -4,10 +4,10 @@ begin
   if Year mod 4 = 0 then
   begin
     if (Year mod 100 = 0) and (Year mod 400 <> 0) then
-      Println($'{Year} - не високосный год')
+      Println($'В этом году - 365 дней')
     else
-      Println($'{Year} - високосный год');
+      Println($'В этом году - 366 дней');
   end
   else
-    Println($'{Year} - не високосный год');
+    Println($'В этом году - 365 дней');
 end.
